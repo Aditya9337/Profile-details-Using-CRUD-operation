@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+#home{
+    
+    border-bottom: 1px solid #ab9292 ;
+    height: 65px;
+    width: 100%;
+    background-color: rgb(213, 233, 227);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    background:linear-gradient(-200deg,black,black,red,black,black)
+
+}
+
+
+#home>button{
+   text-decoration: none;
+   width: 105px;
+   height: 28px;
+   border-radius: 10px;
+   background-color: rgb(88, 7, 20);
+   
+   
+}
+#home> button > a{
+    text-decoration: none;
+    color: white;
+}
+
+/* DesignForm */
+#myform{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+ height: 86vh;
+background-image: url("https://w0.peakpx.com/wallpaper/349/236/HD-wallpaper-red-dots-wavy-lines-black-background-red.jpg");
+background-repeat:no-repeat;
+background-size:1600px;
+background-position: center;
+}
+#myform>form{
+    background: transparent;
+    /* border:  2px solid rgb(213, 200, 200); */
+    height: 65%;
+    width: 300px;
+    line-height: 40px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0px 8px  rgb(187, 178, 174);
+    border-radius: 8px;
+    color: white;
+}
+
+#myform>form>button{
+         box-shadow: 0 2px 10px rgb(231, 102, 123);
+         border-radius: 5px;
+         width: 40%;
+         margin-top: 20px;
+         cursor: pointer;
+         background-color:  rgb(234, 201, 206); 
+}
+#myform>form>button:hover{
+   box-shadow: none;
+}
+#myform>form>input{
+   border: 1px solid rgb(139, 131, 131);
+   box-shadow: 0 0 5px rgb(219, 160, 160);
+    
+}
+#myform>form>input:hover{
+    box-shadow: none;
+}
+
+/* styleuser */
+#userpage{
+    height: 120vh;
+    width: 100%;
+background-image: url("https://w0.peakpx.com/wallpaper/349/236/HD-wallpaper-red-dots-wavy-lines-black-background-red.jpg");
+background-repeat:no-repeat;
+background-size:1600px;
+background-position: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+#profile{
+    height: 270px;
+    width: 220px;
+    border: 2px solid rgba(126, 1, 1, 0.677);
+    border-radius: 5px;
+    box-shadow: 5px 0px 20px  rgb(165, 163, 163);
+    color: white;
+    background: url("https://wallpaperaccess.com/full/6081173.png");
+background-size: cover;
+background-position: center;
+
+}
+#profile table td ,th{
+     padding: 13px;
+     font-size: 16px;
+     font-weight: 800;
+     text-decoration: none;
+}
+
+#profile button{
+    height: 28px;
+   width: 100px;
+margin-left: 6px;
+background-color: transparent;
+color: white;
+cursor: pointer;
+border: 1px solid rgb(180, 179, 179);
+border-radius: 5px;
+box-shadow: -3px  2px 5px white;
+
+}
+#profile button a{
+    color: white;
+    text-decoration: none;
+}
+
+/* edituser */
+#edituserform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 86vh;
+    background-image: url("https://w0.peakpx.com/wallpaper/349/236/HD-wallpaper-red-dots-wavy-lines-black-background-red.jpg");
+    background-repeat:no-repeat;
+background-size:1600px;
+background-position: center;
+}
+#edituserform>form{
+    background-color:transparent;
+    /* border:  2px solid rgb(213, 200, 200); */
+    color: white;
+    height: 60%;
+    width: 230px;
+    line-height: 40px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0px 8px  rgb(187, 178, 174);
+    border-radius: 8px;
+}
+
+#edituserform>form>button{
+    box-shadow: 0 2px 10px rgb(181, 143, 149);
+    border-radius: 5px;
+    width: 40%;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color:  rgb(221, 211, 213); 
+}

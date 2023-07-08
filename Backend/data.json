@@ -1,0 +1,40 @@
+{
+  "user": [
+    {
+      "name": "Aditya",
+      "salary": "30000",
+      "comp": "Mphasis",
+      "id": 1
+    },
+    {
+      "name": "Ravi",
+      "salary": "850236",
+      "comp": "jsp",
+      "id": 2
+    },
+    {
+      "name": "Abhay",
+      "salary": "4567890",
+      "comp": "TCS",
+      "id": 3
+    },
+    {
+      "name": "Sourav",
+      "salary": "2789087",
+      "comp": "Wipro",
+      "id": 4
+    },
+    {
+      "name": "Argho",
+      "salary": "230000",
+      "comp": "Esko",
+      "id": 5
+    },
+    {
+      "name": "Abhisek",
+      "salary": "1234566",
+      "comp": "infinite solution",
+      "id": 6
+    }
+  ]
+}
